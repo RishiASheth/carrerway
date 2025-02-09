@@ -1,0 +1,67 @@
+.job-card {
+  background-color: var(--card-background);
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  margin: 16px;
+  transition: transform 0.3s ease;
+}
+
+.job-card h2 {
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.job-card h3 {
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.location, .salary {
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.swipe-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+
+.swipe-left, .swipe-right {
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipe-left {
+  background-color: #ff4444;
+  color: white;
+}
+
+.swipe-right {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.favorite-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.remove-btn {
+  background-color: #ff4444;
+  color: white;
+}
+
+.more-info-btn {
+  background-color: var(--primary-color);
+  color: white;
+}

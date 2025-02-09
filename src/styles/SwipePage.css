@@ -1,0 +1,33 @@
+.swipe-page {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.favorites-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.no-more-jobs {
+  text-align: center;
+}
+
+.no-more-jobs button {
+  margin-top: 24px;
+  background-color: var(--primary-color);
+  color: white;
+}

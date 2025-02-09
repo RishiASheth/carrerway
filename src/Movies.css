@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    width: 100%;
+}
+
+.title {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content within the container */
+    background-color: black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+input[type="text"]:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00796b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #004d40;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Key change: responsive grid */
+    gap: 20px; /* Spacing between grid items */
+    
+}
+
+.book-item {
+    background: black;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center; /* Center content within each book item */
+    
+}
+
+.book-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.book-item img {
+    width: 100%; /* Image takes full width of its container */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.no-books {
+    color: #00796b;
+    font-size: 18px;
+    text-align: center; /* Center the "no books" message */
+}

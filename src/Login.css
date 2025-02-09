@@ -1,0 +1,78 @@
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f0f0, #d9e6f2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    height: fit-content;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  
+  header {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .input-box {
+    margin-bottom: 1em;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+  }
+  
+  .submit {
+    width: 100%;
+    padding: 0.75em;
+    color: #fff;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit:hover {
+    background: linear-gradient(135deg, #0056b3, #003a75);
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 1em;
+  }
+  
+  .update-password-form {
+    margin-top: 2em;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.black-space {
+  flex: 1;
+  background-color: black;
+}
+
+.questionnaire-container {
+  flex: 0.5;  /* Half of the container */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); /* Transparent to solid */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+  color: white;
+}
+
+h2 {
+  color: #ebe3ba;
+  font-size: 50px; /* Reduced font size */
+  text-align: center;
+}
+
+.question {
+  width: 90%; /* Reduced width */
+  margin-bottom: 12px;
+  color: #ebe3ba
+}
+
+.question p {
+  font-size: 14px; /* Smaller text */
+}
+
+select, input {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  font-size: 14px; /* Smaller input text */
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+select {
+  background-color: #333; /* Dark background for the select dropdown */
+  color: grey; /* Grey text for options */
+  outline: 0.5px solid #ebe3ba; /* Yellow outline */
+}
+
+select option {
+  background-color: #333; /* Dark background for options */
+  color: grey; /* Grey color for options */
+  outline: 0.5px solid #ebe3ba; /* Yellow outline on option */
+}
+
+.search-btn {
+  margin-top: 15px;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #ebe3ba;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #e5d585;
+}
+
+.results {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+input {
+  background-color: #333; /* Dark background for the input fields */
+  color: grey; /* Grey text for input */
+  outline: 0.5px solid #ebe3ba; /* Yellow outline for input fields */
+}

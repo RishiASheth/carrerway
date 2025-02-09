@@ -1,0 +1,22 @@
+.favorites-page {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.favorites-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 24px;
+}
+
+.back-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.no-favorites {
+  text-align: center;
+  color: #888;
+  margin-top: 48px;
+}

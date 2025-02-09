@@ -108,3 +108,11 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for m
 Special thanks to:
 - All the contributors who have helped improve this project.
 - The open-source community for providing valuable resources and tools.
+
+  ## Our team
+  - Rishi A Sheth
+  - Bhavish Sivaprasad
+  - Sanjit Dev Maheswaran
+  - Rithvik Rajesh Matta
+  - Rishabh Jain
+  - Rishil Abhijit

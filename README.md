@@ -29,32 +29,33 @@ Chatbot Integration: API-based (e.g., OpenAI, Dialogflow, or custom backend)
 Installation
 Prerequisites
 Node.js (v16 or higher)
-
+'''
 npm
-
+'''
 Steps
 Clone the Repository:
-
-bash
-Copy
+'''
 git clone https://github.com/yourusername/career-guidance-system.git
 cd career-guidance-system
-Install Dependencies:
+'''
 
-bash
-Copy
+Install Dependencies:
+'''
 npm install
+'''
 Set Up Environment Variables:
 Create a .env file in the root directory and add the necessary environment variables (e.g., API keys for the chatbot).
 
 env
-Copy
+'''
 VITE_CHATBOT_API_KEY=your_api_key_here
-Run the Development Server:
+'''
 
-bash
-Copy
+Run the Development Server:
+'''
 npm run dev
+'''
+
 Access the Application:
 Open your web browser and navigate to http://localhost:5173.
 

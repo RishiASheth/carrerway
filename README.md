@@ -18,7 +18,7 @@ The **Career Guidance System** is an intelligent platform designed to help users
 - **Styling:** Tailwind CSS
 - **Build Tool:** Vite
 - **State Management:** React Context API or Redux (optional)
-- **Chatbot Integration:** API-based (e.g., OpenAI, Dialogflow, or custom backend)
+- **Chatbot Integration:** API-based (e.g., OpenAI, Dialogflow,botpress and custom backend)
 
 ## Installation
 
